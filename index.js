@@ -12,7 +12,4 @@ function createFareMultiplier(int) {
   return newFunction
 }
 
-const fareDoubler = function (num) {
-  let fare = num
-  return createFareMultiplier(2, fare)
-}
+const fareDoubler = createFareMultiplier(2)
